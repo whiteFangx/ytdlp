@@ -30,12 +30,10 @@ every one can use this bot within **{sizeof_fmt(QUOTA)} of quota for every {int(
 
 3. You can optionally choose to become 'VIP' user if you need more traffic. Type /vip for more information.
 
-4. Source code for this bot will always stay open, here-> https://github.com/tgbot-collection/ytdlbot
-
 5. Request limit is applied for everyone, excluding VIP users.
     """ if ENABLE_VIP else "Help text"
 
-    about = "YouTube-DL by @BennyThink. Open source on GitHub: https://github.com/tgbot-collection/ytdlbot"
+    about = "All types link downloader."
 
     vip = f"""
 **Terms:**
