@@ -68,7 +68,7 @@ It's valid permanently, until you use it up.
 2. buy me a coffee: with your email `/vip someone@else.com`
 3. Telegram Payment: automatically activated
     """ if ENABLE_VIP else "VIP is not enabled."
-    vip_pay = "Processing your payments...If it's not responding after one minute, please contact @BennyThink."
+    vip_pay = "Processing your payments...If it's not responding after one minute"
 
     private = "This bot is for private use"
     membership_require = f"You need to join this group or channel to use this bot\n\nhttps://t.me/{REQUIRED_MEMBERSHIP}"
