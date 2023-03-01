@@ -12,9 +12,9 @@ import os
 # general settings
 WORKERS: "int" = int(os.getenv("WORKERS", 100))
 PYRO_WORKERS: "int" = int(os.getenv("PYRO_WORKERS", 100))
-APP_ID: "int" = int(os.getenv("APP_ID", 111))
-APP_HASH = os.getenv("APP_HASH", "111")
-TOKEN = os.getenv("TOKEN", "3703WLI")
+APP_ID: "int" = int(os.getenv("APP_ID", 4783634))
+APP_HASH = os.getenv("APP_HASH", "f6c33f46599246676f75e153b615dbbc")
+TOKEN = os.getenv("TOKEN", "6119451340:AAH8t4ykk-cpiPQyUTais_60X_RbS3DkJdk")
 
 REDIS = os.getenv("REDIS")
 
@@ -32,12 +32,12 @@ USD2CNY = os.getenv("USD2CNY", 6)  # $5 --> ¥30
 
 ENABLE_VIP = os.getenv("VIP", False)
 MAX_DURATION = int(os.getenv("MAX_DURATION", 60))
-AFD_LINK = os.getenv("AFD_LINK", "https://afdian.net/@BennyThink")
-COFFEE_LINK = os.getenv("COFFEE_LINK", "https://www.buymeacoffee.com/bennythink")
+AFD_LINK = os.getenv("AFD_LINK", "https://afdian.net")
+COFFEE_LINK = os.getenv("COFFEE_LINK", "https://www.buymeacoffee.com")
 COFFEE_TOKEN = os.getenv("COFFEE_TOKEN")
 AFD_TOKEN = os.getenv("AFD_TOKEN")
 AFD_USER_ID = os.getenv("AFD_USER_ID")
-OWNER = os.getenv("OWNER", "BennyThink")
+OWNER = os.getenv("OWNER", "kakashi_of_the_hidden_leaf")
 
 # limitation settings
 AUTHORIZED_USER: "str" = os.getenv("AUTHORIZED_USER", "")

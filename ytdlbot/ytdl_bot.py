@@ -58,7 +58,7 @@ def private_use(func):
         chat_id = getattr(message.from_user, "id", None)
 
         # message type check
-        if message.chat.type != "private" and not message.text.lower().startswith("/ytdl"):
+        if message.chat.type != "private" and not message.text.lower().startswith("/m3u8dl"):
             logging.warning("%s, it's annoying me...🙄️ ", message.text)
             return
 
@@ -323,7 +323,7 @@ def download_handler(client: "Client", message: "types.Message"):
     client.send_chat_action(chat_id, 'typing')
     red.user_count(chat_id)
 
-    url = re.sub(r'/ytdl\s*', '', message.text)
+    url = re.sub(r'/m3u8dl\s*', '', message.text)
     logging.info("start %s", url)
 
     if not re.findall(r"^https?://", url.lower()):
